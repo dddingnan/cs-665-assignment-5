@@ -17,7 +17,7 @@ Examine the Caffeine project and identify at least three instances of design pre
 
 1. `Strategy Design Pattern`:
 
-   - See PDF Reference -> Here
+   - See Reference -> ![Here](./Strategy.png)
    - `Strategy Interface (Policy<K, V>)`:
 
      - This serves as the primary strategy interface in the codebase. It defines a set of methods that are common to all caching strategies, such as `isRecordingStats(), getIfPresentQuietly(), refreshes(), eviction(), expireAfterAccess(), expireAfterWrite(), expireVariably(), and refreshAfterWrite().` These methods define the operations that can be performed on a cache, which may vary depending on the specific eviction and expiration policies used.
@@ -34,7 +34,7 @@ Examine the Caffeine project and identify at least three instances of design pre
 
 2. `Iterator Design Pattern`:
 
-   - See PDF Reference -> Here
+   - See Reference -> ![Here](./Iterator.png)
    - `Iterator (Iterator Interface)`:
 
      - This is the core interface in the Iterator pattern that defines the standard for traversal operations.
@@ -61,7 +61,7 @@ Examine the Caffeine project and identify at least three instances of design pre
 
 3. `Decorator Design Pattern And Factory Method Pattern`:
 
-   - See PDF Reference -> Here
+   - See Reference -> ![Here](./Decorator.png)
    - `Decorator Design Pattern`:
 
      - `Structure`:
